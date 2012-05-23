@@ -3,7 +3,9 @@ put.io.js
 
 Put.io Javascript library for node.js and browser
 
-It's really easy.
+If you're using it in the browser, you'll need jQuery.
+
+It's really easy to use.
 
 	var api = new PutIO(key, secret);
 	
