@@ -30,7 +30,7 @@ var PutIO = function(key, secret){
 		'messages': ['list', 'delete'],
 		'transfers': ['list', 'cancel', 'add'],
 		'urls': ['analyze', 'extracturls'],
-		'user': ['info', 'friends'],
+		'user': ['info', 'friends', 'acctoken'],
 		'subscriptions': ['list', 'create', 'edit', 'delete', 'pause', 'info']
 	};
 	
