@@ -64,13 +64,23 @@ var PutIO = function(key, secret){
 			}
 		options.path += classname;
 		options.path += '?method='+method+'&request='+JSON.stringify(request);
+		var cb = function(data){
+			if (data.error)
+				{
+				throw 'putioException';
+				}
+			else
+				{
+				callback(data.response.results);
+				}
+			};
 		if (self.browser)
 			{
-			self.browser_request(options, callback);
+			self.browser_request(options, cb);
 			}
 		else
 			{
-			self.node_request(options, callback);
+			self.node_request(options, cb);
 			}
 	};
 	
