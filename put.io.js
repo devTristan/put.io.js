@@ -105,3 +105,5 @@ var PutIO = function(key, secret){
 	
 	return publicData;
 }
+
+if (typeof module != 'undefined') {exports = module.exports = PutIO;}
