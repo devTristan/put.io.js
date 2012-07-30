@@ -7,10 +7,16 @@ If you're using it in the browser, you'll need jQuery.
 
 It's really easy to use.
 
+Install
+-------
+For node...
+	npm install put.io-v1
+For browser...
+	wget https://raw.github.com/devTristan/put.io.js/master/put.io.js
+
 Node
 ----
-
-	var PutIO = require('./put.io');
+	var PutIO = require('put.io-v1');
 
 Browser
 -------
