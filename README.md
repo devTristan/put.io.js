@@ -10,8 +10,11 @@ It's really easy to use.
 Install
 -------
 For node...
+
 	npm install put.io-v1
+
 For browser...
+
 	wget https://raw.github.com/devTristan/put.io.js/master/put.io.js
 
 Node
