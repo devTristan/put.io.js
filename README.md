@@ -1,6 +1,8 @@
 put.io.js
 =========
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/devTristan/put.io.js.svg)](https://greenkeeper.io/)
+
 Put.io Javascript library for node.js and browser
 
 If you're using it in the browser, you'll need jQuery.
